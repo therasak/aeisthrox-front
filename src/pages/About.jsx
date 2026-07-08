@@ -207,6 +207,10 @@ function About() {
 
             <button
               type="button"
+              onClick={() => window.open(
+                `https://wa.me/918220676875?text=${encodeURIComponent("Hi Aeisthrox Team, I would like to get in touch with you regarding a project.")}`,
+                "_blank"
+              )}
               className="mt-8 w-full rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-[#123C82] transition hover:scale-105 sm:mt-10 sm:w-auto sm:px-8 sm:py-4 sm:text-base"
             >
               Contact Us Now

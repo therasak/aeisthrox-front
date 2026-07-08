@@ -25,9 +25,9 @@ import {
  */
 
 const CONTACT_INFO = {
-    address: "Vadakarai, Tenkasi, Tamil Nadu, India",
-    phone: "+91 90000 00000",
-    email: "hello@aiesthrox.com",
+    address: "27VC+FFW, MDR924, Vadakarai, Vadakarai Keezhpadugai, Tamil Nadu 627812",
+    phone: "+91 82206 76875",
+    email: "contact@aeisthrox.in",
     hours: "Mon – Sat, 9:00 AM – 7:00 PM",
 };
 
@@ -78,7 +78,7 @@ ${formData.message}
 `;
 
         window.open(
-            `https://wa.me/919025360827?text=${encodeURIComponent(message)}`,
+            `https://wa.me/918220676875?text=${encodeURIComponent(message)}`,
             "_blank"
         );
     };
@@ -366,7 +366,7 @@ ${formData.message}
                                             Address
                                         </p>
                                         <p className="mt-0.5 text-xs text-[#52698A] sm:text-sm">
-                                            {CONTACT_INFO.address}
+                                            5/1,Sharif nagar 7th street, Vadakarai pin 627 812
                                         </p>
                                     </div>
                                 </li>

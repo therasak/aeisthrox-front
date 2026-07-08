@@ -8,18 +8,18 @@ import man2 from '../assets/man2.png';
 // (head-to-hip crop, transparent background) — e.g. `import aravind from "../assets/team/aravind.png"`
 const team = [
     {
-        name: "ABUBAKKAR",
+        name: "Abubakkar",
         role: "Founder & CEO",
         image: man1,
         quote: "Good design solves problems people didn't know they had.",
-        socials: { linkedin: "#", twitter: "#", mail: "mailto:hello@example.com" },
+        socials: { instagram: "https://www.instagram.com/view_of_abu?igsh=enpsaXBteGlmZGt0&utm_source=qr", twitter: "#", mail: "mailto:hello@example.com" },
     },
     {
-        name: "AARIF",
+        name: "Aarif",
         role: "Co-Founder & CTO",
         image: man2,
         quote: "A space should feel like it was always meant to be this way.",
-        socials: { linkedin: "#", twitter: "#", mail: "mailto:hello@example.com" },
+        socials: { instagram: "https://www.instagram.com/aarif_fitness2026?igsh=MW45dHVvZ29oOXB2Nw==", twitter: "#", mail: "mailto:hello@example.com" },
     },
     // {
     //     name: "Rohan Das",
@@ -101,23 +101,28 @@ function Team() {
                                 </p>
 
                                 <div className="mt-4 flex items-center justify-center gap-3 border-t border-slate-100 pt-4">
-                                    <a href={member.socials.linkedin}
-                                        aria-label={`${member.name} on LinkedIn`}
+                                    <a href={member.socials.instagram}
+                                        aria-label={`${member.name} on Instagram`}
                                         className="flex h-8 w-8 items-center justify-center rounded-full bg-[#F5F8FC] text-[#2F6FED] transition hover:bg-[#2F6FED] hover:text-white"
                                     >
-                                        <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
-                                            <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z" />
+                                        <svg
+                                            viewBox="0 0 24 24"
+                                            width="15"
+                                            height="15"
+                                            fill="currentColor"
+                                        >
+                                            <path d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4zm8.9 1a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z" />
                                         </svg>
                                     </a>
 
-                                    <a href={member.socials.twitter}
+                                    {/* <a href={member.socials.twitter}
                                         aria-label={`${member.name} on Twitter`}
                                         className="flex h-8 w-8 items-center justify-center rounded-full bg-[#F5F8FC] text-[#2F6FED] transition hover:bg-[#2F6FED] hover:text-white"
                                     >
                                         <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
                                             <path d="M18.9 2H22l-7.6 8.7L23.5 22H16.7l-5.3-6.9L5.3 22H2.2l8.1-9.3L1.5 2h6.9l4.8 6.3L18.9 2Zm-1.2 18.1h1.7L7.4 3.8H5.6l12.1 16.3Z" />
                                         </svg>
-                                    </a>
+                                    </a> */}
 
                                     <a href={member.socials.mail}
                                         aria-label={`Email ${member.name}`}

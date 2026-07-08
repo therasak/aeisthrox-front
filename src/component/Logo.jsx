@@ -9,7 +9,7 @@ const Logo = () => {
       </div>
 
       <h1 className="text-2xl font-bold text-gray-800">
-        Aiesth<span className="text-blue-600">rox</span>
+        Aeisth<span className="text-blue-600">rox</span>
       </h1>
     </Link>
   );

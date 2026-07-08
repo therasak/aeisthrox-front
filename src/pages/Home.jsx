@@ -278,7 +278,8 @@ export default function Home() {
                     />
                   </a>
 
-                  x            <a
+                  {/* x    */}
+                  {/* <a
                     href="#work"
                     className="cta-secondary group flex items-center gap-2 rounded-full px-5 py-3 text-sm font-semibold text-[#123C82] transition-all duration-300 sm:px-8 sm:py-4 sm:text-base"
                   >
@@ -287,7 +288,7 @@ export default function Home() {
                       size={16}
                       className="transition-transform duration-300 group-hover:translate-x-1 sm:size-[18px]"
                     />
-                  </a>
+                  </a> */}
                 </div>
 
                 {/* Trust Badge */}
