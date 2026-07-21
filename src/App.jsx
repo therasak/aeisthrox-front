@@ -10,7 +10,7 @@ const Page = ({ title }) => (
   <div className="h-screen flex justify-center items-center text-5xl font-bold">
     {title}
   </div>
-);
+); 
 
 function App() {
   return (
@@ -21,8 +21,8 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/projects" element={<Page title="Projects" />} />
-        <Route path="/blog" element={<Page title="Blog" />} />
+        {/* <Route path="/projects" element={<Page title="Projects" />} /> */}
+        {/* <Route path="/blog" element={<Page title="Blog" />} /> */}
         <Route path="/team" element={<Team />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
